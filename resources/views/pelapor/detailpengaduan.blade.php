@@ -24,7 +24,7 @@
             <h6><b>Status Pengaduan : </b></h6>
         </div>
         <div style="display:flex; justify-content: flex-end;padding-right:4%">
-            <button type="button" class="btn btn-danger px-3" style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7);color: rgb(255, 255, 255); background-color: #FF2E00;" onclick="ajukanPengaduan()">Ajukan Pengaduan</button>
+            <a href="/pelapor/ajukanpengaduan"><button type="button" class="btn btn-danger px-3" style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7);color: rgb(255, 255, 255); background-color: #FF2E00;" onclick="ajukanPengaduan()">Ajukan Pengaduan</button></a>
         </div>
     </div>
 </div><br>
@@ -64,7 +64,7 @@
                 <table class="table table-striped table-md" style="width: 100%; border-collapse: collapse;">
                     <thead>
                         <tr>
-                            <th>Nama</th>
+                            <th style="width: 40%">Nama</th>
                             <td>{{ $pengaduans->nama_terlapor }}</td>
                         </tr>
                         <tr>
@@ -81,7 +81,7 @@
                 <table class="table table-striped table-md" style="width: 100%; border-collapse: collapse;">
                     <thead>
                         <tr>
-                            <th>Nama</th>
+                            <th style="width: 40%">Nama</th>
                             <td>{{ $pengaduans->nama_pelapor }}</td>
                         </tr>
                         <tr>
@@ -119,8 +119,8 @@
                 <table class="table table-striped table-md" style="width: 96%; border-collapse: collapse;">
                     <thead>
                         <tr>
-                            <th>No</th>
-                            <th>Nama</th>
+                            <th style="width: 20%">No</th>
+                            <th style="width: 50%">Nama</th>
                             <th>Email</th>
                         </tr>
                         <tr>
@@ -134,8 +134,8 @@
                 <table class="table table-striped table-md" style="width: 96%; border-collapse: collapse;">
                     <thead>
                         <tr>
-                            <th>No</th>
-                            <th>Status</th>
+                            <th style="width: 20%">No</th>
+                            <th style="width: 50%">Status</th>
                             <th>Tanggal</th>
                         </tr>
                         <tr>

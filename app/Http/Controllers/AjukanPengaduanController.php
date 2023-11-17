@@ -19,7 +19,7 @@ class AjukanPengaduanController extends Controller
 
     public function create()
     {
-        return view('ajukanpengaduan.create');
+        return view('pelapor/aktivitassaya');
     }
 
     public function store(Request $request)
